@@ -1,0 +1,101 @@
+{% extends "AidLink/white.html" %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+
+
+<div class="headerDonations">
+    <br>
+    <br>
+    <br>
+    <div class="volunteer1">Donations &</div>
+    <div class="volunteer2">Fundraisers</div>
+</div>
+<br><br>
+<center>
+<form class="form2" action="" method="POST">
+    {{ form|crispy }}
+    {% csrf_token %}
+    <br>
+    <button> Search </button>
+</form>
+</center>
+
+
+
+<!--<div class="resList">
+    <div class="info">
+        <br>
+        <div class="infoLeft">
+        {{res.cause}}
+        </div>
+        <div class="infoRight amount">
+            {{res.amount}} 
+        </div>
+    </div>
+    <br>
+    <div class="info">
+        <br>
+        <div class="infoLeft">
+        {{res.name}}
+        </div>
+        <div class="infoRight">
+            {{res.contact_Call}} (Call)
+        </div>
+    </div>
+    <br>
+    <div class="info">
+        <div class="infoLeft">
+        {{res.address}}
+        </div>
+        <div class="infoRight">
+            {{res.contact_WA}} (WhatsApp)
+        </div>
+    </div>
+    <br>
+    <div class="info">
+        <div class="infoLeft">
+        {{res.address}}
+        </div>
+    </div>
+    <br>
+</div>    
+<hr>-->
+<br><br>
+<center>
+    <div style="overflow-x:auto;">
+<table class="resultList">
+    {% for res in List %}
+    <tr>
+        <td>{{res.cause}}</td>
+        <td class="amount"> ₹ {{res.amount}}</td>
+    </tr>
+    <tr>
+        <td>{{res.name}}</td>
+        <td>{{res.contact_Call}}</td>
+    </tr>
+    <tr>
+        <td>{{res.email}}</td>
+        <td>{{res.contact_WA}}</td>
+        </tr>
+        <tr>
+        <td>{{res.address}}</td>
+        </tr>
+        <tr>
+        <center>
+        <a href="../donatePage"><button class="btn btn-primary">Donate</button></a>
+            </tr>
+        </center>
+    </tr>
+    <br>
+    
+
+<hr>
+
+{% endfor %}
+
+
+</table>
+</div>
+</center>
+{% endblock %}

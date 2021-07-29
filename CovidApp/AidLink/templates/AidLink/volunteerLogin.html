@@ -1,0 +1,31 @@
+{% extends "AidLink/black.html" %}
+
+{% block content %}
+
+<div class="logo-vol">
+        aidlink
+</div>
+
+<div class="welcome">Welcome </div>
+<div class="welcome2">to bring a change .</div>
+<br><br>
+<div class="LoginForm">
+<form method="POST">
+    {% csrf_token %}
+    <input  type="text" name="email" placeholder="Email Id">
+    <br>
+    <input type="text" name="phone-number" placeholder="Phone Number">
+    <br>
+    <div class="divarrow">
+    <input class="arrow right" type="submit" name="submit" placeholder="Submit">
+        </div>
+</form>
+</div>
+<div class="rest">
+    <center>
+<h3>New Here?</h3>
+<a href="../volunteerRegister"><button >Register</button></a>
+        </center>
+</div>
+
+{% endblock %}

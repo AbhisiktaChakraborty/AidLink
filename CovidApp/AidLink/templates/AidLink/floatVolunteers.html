@@ -1,0 +1,40 @@
+{% extends "AidLink/white.html" %}
+{% block content %}
+
+<div class="headerVolunteer">
+    <br>
+    <br>
+    <br>
+    <div class="volunteer1">Volunteer &</div>
+    <div class="volunteer2">Help</div>
+</div>
+<br>
+<br>
+<center>
+    <button> Search </button>
+</center>
+<br> 
+<br>
+<div style="overflow-x:auto;">
+    <table class="resultList">
+        {% for res in List %}
+        <tr>
+            <td>{{res.name}}</td>
+            <td>{{res.contact_Call}}</td>
+        </tr>
+        <tr>
+            <td>{{res.email}}</td>
+                <td>{{res.contact_WA}}</td>
+        </tr>
+        <tr>
+            <td>{{res.address}}<hr></td>
+        <td>{{res.pincode}}<hr></td>
+            
+        </tr>   
+       
+{% endfor %}
+
+</table>
+
+</div>
+{% endblock %}

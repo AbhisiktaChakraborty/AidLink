@@ -1,0 +1,182 @@
+body{
+    background-color: #1C1A1A;
+    
+}
+
+.logo{
+    padding-top: 18%;
+    padding-bottom: 20px;
+    color:#FAFF07;
+    font-family: Ubuntu;
+    font-size: 35px;
+
+}
+button{
+
+    background-color: #1C1A1A;
+    color: #FFFF;
+    border: 2px solid #FFFF;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+a{
+    color: #FFFF;
+    text-decoration: none;
+}
+
+.link{
+    font-family: Ubuntu;
+    font-size: 20px;
+}
+
+.logo-vol{
+    padding-top: 6%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color:#FAFF07;
+    font-family: Ubuntu;
+    font-size: 35px;
+
+}
+
+.welcome{
+    padding-left: 20px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: rgba(255, 255, 255, 0.81);
+
+    mix-blend-mode: lighten;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.welcome2{
+
+    padding-left: 20px;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+
+    color: rgba(255, 255, 255, 0.81);
+
+    mix-blend-mode: lighten;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.homeicon{
+    
+    padding-left: 50%;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+input[type=text]{
+    
+
+
+    background: #1C1A1A;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+
+    color: rgba(253, 245, 245, 0.58);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.LoginForm{
+    padding-left: 5%;
+}
+
+.divarrow{
+    padding-left: 25%;
+    padding-top: 4%;
+}
+
+.arrow {
+	
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 1vmin solid white;
+	border-right: 1vmin solid white;
+	
+	transition: all 200ms ease;
+	
+
+	
+		right: 0;
+		transform: translate3d(0,-50%,0) rotate(45deg);
+}	
+	
+.arrow:hover {
+		border-color: orange;
+		box-shadow: 0.5vmin -0.5vmin 0 white;
+	}
+
+h3{
+    color: rgba(253, 245, 245, 0.58);
+}
+
+.main{
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: 200;
+font-size: 32px;
+line-height: 123.69%;
+/* or 45px */
+
+
+letter-spacing: -0.04em;
+
+color: #FCF7F7;
+
+}
+
+h4{
+    font-weight: 150;
+    font-size: 24px;
+}
+
+.section1{
+    padding-left: 3%;
+    background: linear-gradient(119.67deg, #EEBD89 2.44%, rgba(239, 194, 146, 0.925462) 28.85%, rgba(255, 255, 255, 0) 93.22%), rgba(209, 58, 189, 0.7);
+mix-blend-mode: normal;
+border-radius: 11px;
+}
+
+.section2{
+    padding-left: 3%;
+    background: linear-gradient(119.18deg, #9600FF 10.49%, rgba(255, 255, 255, 0) 96.68%), #AEBAF8;
+mix-blend-mode: normal;
+border-radius: 11px;
+}
+
+.section3{
+    padding-left: 3%;
+    background: linear-gradient(119.57deg, #BB73E0 26.45%, rgba(255, 255, 255, 0) 100%), #FF8DDB;
+    mix-blend-mode: normal;
+    border-radius: 11px;
+}

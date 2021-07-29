@@ -1,0 +1,65 @@
+{% extends "AidLink/white.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<div class="headerVolunteer">
+    <br>
+    <br>
+    <br>
+    <div class="volunteer1">Volunteer &</div>
+    <div class="volunteer2">Help</div>
+</div>
+
+<br><br>
+<center>
+
+
+<form class="volForm1" method = "POST">
+    {{ form|crispy }}
+    {% csrf_token %}
+    <br>
+    <button> Register </button>
+</form>
+
+<!--<form method="POST">
+    {% csrf_token %}
+    <label>Name</label>
+    <input type="text" name="name">
+    <br />
+    <label>Email</label>
+    <input type="email" name="email">
+    <br />
+    <label>Address</label>
+    <input type="text" name="pincode">
+    <br />
+    <label>Contact (Call)</label>
+    <input type="text" name="contact-call">
+    <br />
+    <label>Contact (WhatsApp)</label>
+    <input type="text" name="contact-WA">
+    <br /><br />
+    <label>How Can You Help?</label>
+    <br>
+    <input type="checkbox" name="" value="">Medical Resources - Oxygen New Cylinder     
+    <br />
+    <input type="checkbox" name="" value="">Medical Resources - Oxygen Cylinder Refill 
+    <br />
+    <input type="checkbox" name="" value="">Medical Resources - Hospital Beds Information
+    <br />
+    <input type="checkbox" name="" value="">Medical Resources - Hospital Beds Formalities
+    <br />
+    <input type="checkbox" name="" value="">Medical Resources - Medicines
+    <br />
+    <input type="checkbox" name="" value="">Food Delivery
+    <br />
+    <input type="checkbox" name="" value="">Groceries
+    <br />
+    <input type="checkbox" name="" value="">Amenities
+    <br />
+    <input type="checkbox" name="" value="">Floating
+    <br />
+    <input type="checkbox" name="" value="">Others
+    <br />
+</form>-->
+</center>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends "AidLink/white.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<div class="headerResource">
+    <div class="homeLink" style="
+    
+
+">
+        aidlink
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="volunteer1">Resources &</div>
+    <div class="volunteer2">Medical Support</div>
+
+</div>
+
+
+<center>
+<form class="resources" method="POST">
+    <br><br>
+    {{ form|crispy }}
+    {% csrf_token %}
+    <br>
+    <button> Search </button>
+</form>
+<br><br>
+</center>
+<div style="overflow-x:auto;">
+<table class="resultList">
+    {% for res in List %}
+    <tr>
+        <td>{{res.name}}</td>
+        <td>{{res.contact_Call}}</td>
+    </tr>
+    <tr>
+        <td>{{res.email}}</td>
+            <td>{{res.contact_WA}}</td>
+    </tr>
+    <tr>
+        <td>{{res.address}}<hr></td>
+        <td>{{res.pincode}}<hr></td>
+    </tr>   
+   
+{% endfor %}
+
+</table>
+</div>
+
+
+    {% endblock %}

@@ -1,0 +1,201 @@
+.headerVolunteer{
+    margin-top: -10%;
+    padding-top: 10%;
+    height: 30%;
+    width:100%;
+    background: linear-gradient(119.57deg, #BB73E0 26.45%, rgba(255, 255, 255, 0) 100%), #FF8DDB;
+    mix-blend-mode: normal;
+    border-radius: 11px;
+}
+
+.headerResource{
+    margin-top: -10%;
+    padding-top: 10%;
+    height: 30%;
+    width:100%;
+    background: linear-gradient(119.67deg, #EEBD89 2.44%, rgba(239, 194, 146, 0.925462) 28.85%, rgba(255, 255, 255, 0) 93.22%), rgba(209, 58, 189, 0.7);
+mix-blend-mode: normal;
+border-radius: 11px;
+}
+
+.headerDonations{
+    margin-top: -10%;
+    padding-top: 10%;
+    height: 30%;
+    width:100%;
+    background: linear-gradient(119.18deg, #9600FF 10.49%, rgba(255, 255, 255, 0) 96.68%), #AEBAF8;
+mix-blend-mode: normal;
+border-radius: 11px;
+}
+.volunteer1{
+    padding-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 53px;
+   
+    letter-spacing: -0.06em;
+    text-transform: capitalize;
+
+    color: rgba(255, 255, 255, 0.81);
+
+    mix-blend-mode: lighten;
+}
+
+.homeLink{
+    padding-left: 10%;
+    padding-top: 10%;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.volunteer2{
+    padding-left: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: rgba(255, 255, 255, 0.81);
+
+    mix-blend-mode: lighten;
+
+}
+p{
+    color: rgba(255, 255, 255, 0.81);
+}
+.home{
+    
+    padding-left: 50%;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.volForm1{
+
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display:inline-block;
+    align-items: inherit;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.46); 
+}
+
+volForm{
+    width:80%;
+}
+
+button{
+    background: #F098D5;
+border: 1px solid #FDDDEC;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.025em;
+text-transform: capitalize;
+
+color: rgba(255, 255, 255, 0.97);
+}
+
+.resources{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.46); 
+}
+
+.form2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.46); 
+
+}
+
+
+.resultList{
+    
+    text-align: center;
+    padding-left: 10px;
+    width:100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: rgba(0, 0, 0, 0.46); 
+}
+
+
+
+.amount{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.navDonation{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 12px;
+letter-spacing: 0.025em;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.46); 
+}
+
+.footnotes{
+    position: fixed;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+margin-bottom: 0%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: -0.025em;
+
+color: rgba(0, 0, 0, 0.41);
+
+
+}

@@ -1,0 +1,24 @@
+{% extends "AidLink/white.html" %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+<div class="headerDonations">
+    <br>
+    <br>
+    <br>
+    <div class="volunteer1">Donations &</div>
+    <div class="volunteer2">Fundraisers</div>
+</div>
+<br>
+<br>
+<br>
+<center>
+    <form class="form2" method="POST">
+        {{ form|crispy }}
+        {% csrf_token %}
+
+        <button> Submit </button>
+    </form>
+</center>
+
+{% endblock %}
